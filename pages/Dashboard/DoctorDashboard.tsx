@@ -1,7 +1,7 @@
 import React from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, LineChart, Line } from 'recharts';
 import { Calendar, Users, DollarSign, Clock, Settings, User as UserIcon, ShieldCheck } from 'lucide-react';
-import { User } from '../../types';
+import type { User } from '../../types';
 
 const data = [
   { name: 'Mon', patients: 12, revenue: 6000 },

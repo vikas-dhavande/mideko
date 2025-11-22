@@ -7,7 +7,7 @@ import DoctorDashboard from './pages/Dashboard/DoctorDashboard';
 import Marketplace from './pages/Shop/Marketplace';
 import Verification from './pages/Verification';
 import { MOCK_USER } from './constants';
-import { User } from './types';
+import type { User } from './types';
 
 function App() {
   const [user, setUser] = useState<User | null>(null);

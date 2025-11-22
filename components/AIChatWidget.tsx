@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { MessageCircle, X, Send, Bot, AlertCircle } from 'lucide-react';
 import { generateMedicalResponse } from '../services/geminiService';
-import { ChatMessage } from '../types';
+import type { ChatMessage } from '../types';
 
 const AIChatWidget: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);

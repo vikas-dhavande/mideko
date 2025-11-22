@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, User, ShoppingCart, Search, Stethoscope } from 'lucide-react';
-import { User as UserType } from '../types';
+import type { User as UserType } from '../types';
 
 interface NavbarProps {
   user: UserType | null;

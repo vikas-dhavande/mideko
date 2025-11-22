@@ -1,4 +1,5 @@
-import { DoctorProfile, Product, Article, User, UserRole } from './types';
+import { UserRole } from './types';
+import type { DoctorProfile, Product, Article, User } from './types';
 
 export const MOCK_USER: User = {
   id: 'u1',
