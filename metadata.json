@@ -1,0 +1,8 @@
+{
+  "name": "MediConnect India",
+  "description": "A verified medical ecosystem connecting patients, doctors, and institutions with AI-powered assistance and e-commerce.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
